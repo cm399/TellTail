@@ -12,6 +12,7 @@ const useStyle = makeStyles({
 		float: "left",
 		width: "33.33%",
 		height: "300px",
+		position: "relative",
 		'@media (max-width: 1172px)': {
 			width: '50%',
 			maxWidth: '47%'
@@ -55,4 +56,8 @@ const ReadMore = styled.div`
 	margin: 6px 15px;
 	float: right;
 	cursor: pointer;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+
 `;

@@ -24,11 +24,12 @@ export const Content = styled.div`
 export const Heading = styled.div`
   font-size: 35px;
   color: #142669;
+  line-height: 50px;
 `;
 
 export const Image = styled.img`
   height: 290px;
-  width: 500px;
+  width: 600px;
   object-fit: cover;
   border-radius: 10px;
   display: flex;
@@ -40,5 +41,10 @@ export const Image = styled.img`
 `;
 
 export const Description = styled.div`
-  line-height: 45px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: justify;
+  p{
+    margin: 25px 0px;
+  }
 `;

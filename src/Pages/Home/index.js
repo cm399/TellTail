@@ -1,4 +1,5 @@
 import { Tabs, Tab } from "@mui/material";
+import Header from "./../../Components/Header";
 import { makeStyles } from "@mui/styles";
 import { useState } from "react";
 import ReadComponent from "../../Components/ReadComponent";
@@ -30,6 +31,7 @@ const Home = () => {
 
 	return (
 		<HomeWrapper>
+			<Header />
 			<MainTab sx={{ borderBottom: 1, borderColor: 'divider' }}>
 				<Tabs className={classes.tabs} classes={{ indicator: classes.indicator }} value={value} onChange={handleChange} aria-label="basic tabs example">
 					<Tab className={classes.tab} label="Read" {...a11yProps(0)} />
