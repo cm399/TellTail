@@ -23,7 +23,7 @@ const useStyle = makeStyles({
 	}
 })
 
-const Card = ({ title, img, body }) => {
+const Card = ({ title, img }) => {
 
 	const classes = useStyle();
 	const { push } = useHistory();

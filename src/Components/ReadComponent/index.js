@@ -15,7 +15,7 @@ const ReadComponent = () => {
                 <div className="read_more">More Resources <ArrowForwardIcon /></div>
             </Header>
             <CardWrapper>
-                {Object.keys(MockDataState).map((key) => (<Card title={key} {...MockDataState[key]} />))}
+                {Object.keys(MockDataState).map((key, i) => (<Card key={i} title={key} {...MockDataState[key]} />))}
             </CardWrapper>
         </ReadWrapper>
     )
