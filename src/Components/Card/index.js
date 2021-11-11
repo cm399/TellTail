@@ -8,7 +8,18 @@ const staticImg = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/
 const useStyle = makeStyles({
 	card: {
 		borderRadius: '10px',
-		margin: "15px 0px",
+		margin: "15px 10px",
+		float: "left",
+		width: "33.33%",
+		height: "300px",
+		'@media (max-width: 1172px)': {
+			width: '50%',
+			maxWidth: '47%'
+		},
+		'@media (max-width: 746px)': {
+			width: '100%',
+			maxWidth: '100%'
+		}
 	}
 })
 

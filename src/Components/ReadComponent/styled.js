@@ -29,6 +29,7 @@ export const Header = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-
-
+    content: "";
+    clear: both;
+    display: table;
 `;
